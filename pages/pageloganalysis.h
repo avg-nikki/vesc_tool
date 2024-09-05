@@ -115,6 +115,8 @@ private:
 
     struct SelectoData {
         QStringList dataLabels;
+        QStringList checkedY1Boxes;
+        QStringList checkedY2Boxes;
         int scrollPos;
     };
 
