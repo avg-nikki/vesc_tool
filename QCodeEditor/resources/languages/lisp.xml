@@ -111,6 +111,8 @@
 </section>
 
 <section name="Type">
+<name>dm-create</name>
+<name>dm-alloc</name>
 <name>to-byte</name>
 <name>to-i</name>
 <name>to-u</name>
@@ -223,6 +225,7 @@
 <name>eeprom-store-i</name>
 <name>eeprom-read-i</name>
 <name>sysinfo</name>
+<name>set-odometer</name>
 <name>stats</name>
 <name>stats-reset</name>
 <name>icu-start</name>
@@ -270,9 +273,11 @@
 <name>get-rpm</name>
 <name>get-rpm-fast</name>
 <name>get-rpm-faster</name>
+<name>get-rpm-set</name>
 <name>get-temp-fet</name>
 <name>get-temp-mot</name>
 <name>get-speed</name>
+<name>get-speed-set</name>
 <name>get-dist</name>
 <name>get-dist-abs</name>
 <name>get-batt</name>
@@ -537,5 +542,6 @@
 <name>connected-wifi</name>
 <name>connected-ble</name>
 <name>connected-usb</name>
+<name>aes-ctr-crypt</name>
 </section>
 </root>
